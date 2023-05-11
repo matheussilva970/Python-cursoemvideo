@@ -1,5 +1,5 @@
 a = input('Digite algo: ')
-print(f'O tipo primitivo desse valor é {type(a)}')
+print(f'O tipo primitivo desse valor é \033[35m{type(a)}\033[m')
 print(f'Só tem espaços? {a.isspace()}')
 print(f'É um número? {a.isnumeric()}')
 print(f'É alfabético? {a.isalpha()}')
